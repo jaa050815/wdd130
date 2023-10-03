@@ -1,0 +1,54 @@
+body {
+    background-color: pink;
+}
+
+.list {
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h1:hover {
+    color: black;
+}
+
+.not-list {
+    text-align: center;
+}
+
+img {
+    width: 13%;
+    display: block;
+    margin: 0 auto;
+}
+
+#white1 {
+    color: white;
+}
+
+#white2 {
+    color: white;
+}
+
+#white3 {
+    color: white;
+    font-size: 2.2em;
+    max-width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#name {
+    display: block;
+    margin: 0 auto;
+}
+
+#job {
+    display: block;
+    margin: 0 auto;
+}
