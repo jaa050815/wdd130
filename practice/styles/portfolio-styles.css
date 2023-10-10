@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background-color: darkgray;
+}
+
+.round {
+    border-radius: 50%;
+    margin: 2% 6.57%;
+    height: 20%;
+    width: 20%;
+}
+
+#name {
+    width: 100%;
+}
