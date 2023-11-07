@@ -222,9 +222,24 @@ h4 {
     grid-row: 2/3;
 }
 
+.river-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
 
+.title{
+    text-align: center;
+    grid-column: 1/3;
+}
 
+.images{
+    grid-column: 1/2;
+}
 
+.text{
+    grid-column: 2/3;
+}
 
 
 @media screen and (max-width: 900px) {
