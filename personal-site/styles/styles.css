@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&family=Shadows+Into+Light+Two&display=swap');
 
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #808F85;
+    margin-bottom: -5.7%;
 }
 
 nav {
@@ -33,10 +39,12 @@ nav a:hover {
 body {
     font-family: "playpen sans", helveltica, sans-serif;
     background-color: #53A2BE;
+    padding: 0;
+    margin: 0;
 }
 
 h1, h2 {
-    font-family: "shadows into light two";
+    font-family: "shadows into light two", sans-serif;
     font-size: 4em;
     color: #FFF1D0;
 }
@@ -44,8 +52,8 @@ h1, h2 {
 p {
     color: #FFF1D0;
     font-size: 1.6em;
-    padding-left: 4%;
-    padding-right: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 img {
@@ -73,6 +81,7 @@ img {
     grid-column: 1/3;
     grid-row: 1/2;
     z-index: 1;
+    margin-top: -20%;
 }
 
 .home-img-1 {
@@ -89,10 +98,12 @@ img {
     grid-column: 2/3;
     grid-row: 2/3;
 }
+
 .box4 {
     grid-column: 1/3;
     grid-row: 3/4;
     z-index: 1;
+    margin-top: -15%;
 }
 
 .home-img-2 {
@@ -112,6 +123,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: -5%;
 }
 
 footer a {
