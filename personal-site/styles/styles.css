@@ -41,14 +41,14 @@ nav a:hover {
 }
 
 body {
-    font-family: "playpen sans", helveltica, sans-serif;
+    font-family: "playpen sans", tahoma, sans-serif;
     background-color: #53A2BE;
     padding: 0;
     margin: 0;
 }
 
 h1, h2 {
-    font-family: "shadows into light two", sans-serif;
+    font-family: "shadows into light two", trebuchet MS, sans-serif;
     font-size: 4em;
     color: #FFF1D0;
 }
@@ -159,6 +159,21 @@ img {
     margin-top: -8%;
 }
 
+#faq-title {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.questions {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sub2img1 {
+    margin-top: 2%;
+}
+
 footer {
     background-color: #808F85;
     color: #FFF1D0;
@@ -190,4 +205,8 @@ footer p a:hover {
 
 .footer2 {
     margin-top: 3%;
+}
+
+.footer3 {
+    margin-top: -0.32%;
 }
